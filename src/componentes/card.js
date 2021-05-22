@@ -27,7 +27,7 @@ class card extends React.Component {
           <img alt="imagen"></img>
         </div>
         <div className={style.cardContent}>
-          <h3> ANUNCIOS </h3>
+          <h3> Clases de discipulado </h3>
           <h1> h1</h1>
           <h4> h4 </h4>
         </div>
