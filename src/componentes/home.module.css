@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(14, auto);
+}
+
+.header {
+  background-color: chartreuse;
+  grid-column: 1/5;
+}
+
+.portada {
+  height: 100vh;
+  grid-column: span 4;
+  background-image: url(../images/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.menu {
+  background-color: red;
+  grid-column: 1/5;
+}
+
+.carrusel {
+  background-color: saddlebrown;
+  grid-column: 1/5;
+}
+
+.contenido {
+  background-color: oldlace;
+  grid-column: 1/4;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: orange;
+  height: 100vh;
+}
+.destacado {
+  background-color: slategray;
+  grid-column: 1/5;
+  justify-self: center;
+}
+
+.videos {
+  background-color: rgb(34, 33, 33);
+  grid-column: span 1;
+  grid-row: span 10;
+}
+
+.contentCard {
+  grid-column: span 3;
+}
+
+.articulo {
+  background-color: cadetblue;
+  grid-column: 1/5;
+  justify-self: center;
+}
+
+.footer {
+  background-color: rgb(51, 48, 48);
+  grid-column: span 4;
+  text-align: center;
+  height: 60vh;
+}

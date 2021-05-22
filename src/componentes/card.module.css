@@ -1,0 +1,13 @@
+.cardImg {
+  width: 50%;
+  min-height: 320px;
+  background-color: rgb(58, 73, 73);
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  min-height: 320px;
+}
